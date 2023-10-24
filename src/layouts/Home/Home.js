@@ -68,9 +68,8 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Designer + Developer"
-        description="Design portfolio of Hamish Williams — a product designer working on web & mobile
-          apps with a focus on motion, experience design, and accessibility."
+        title="SafePay"
+        description="Solution for real live payments and crypto mass adoption."
       />
       <Intro
         id="intro"
@@ -80,34 +79,14 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-1"
-        sectionRef={projectOne}
-        visible={visibleSections.includes(projectOne.current)}
-        index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
-        model={{
-          type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
-          textures: [
-            {
-              srcSet: [sprTexture, sprTextureLarge],
-              placeholder: sprTexturePlaceholder,
-            },
-          ],
-        }}
-      />
-      <ProjectSummary
-        id="project-2"
         alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
-        index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        index={1}
+        title="Phone to Phone payments"
+        description="Using secure NFC technology, we provide a handy and safe payment method for daily life using cryptocurrencies."
+        buttonText="Download the app"
+        //buttonLink="https://example.com"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -119,6 +98,26 @@ export const Home = () => {
             {
               srcSet: [gamestackTexture2, gamestackTexture2Large],
               placeholder: gamestackTexture2Placeholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-2"
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectOne.current)}
+        index={2}
+        title="Secure, Fast, and Physical: Digital Transactions Reimagined"
+        description="To enhance security for both users and vendors, optional verification of vendors for offering your clients asmooth and quick payment experience."
+        buttonText="Verify your shop"
+        //buttonLink="/projects/smart-sparrow"
+        model={{
+          type: 'laptop',
+          alt: 'Smart Sparrow lesson builder',
+          textures: [
+            {
+              srcSet: [sprTexture, sprTextureLarge],
+              placeholder: sprTexturePlaceholder,
             },
           ],
         }}
