@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Global scale', 'Security-focused', 'Fast Transactions',  'Reliable', 'Daily life usage'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -78,7 +78,7 @@ export const Home = () => {
         scrollIndicatorHidden={scrollIndicatorHidden}
       />
       <ProjectSummary
-        id="project-1"
+        id="Feature-1"
         alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
@@ -103,12 +103,12 @@ export const Home = () => {
         }}
       />
       <ProjectSummary
-        id="project-2"
+        id="Feature-2"
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={2}
         title="Secure, Fast, and Physical: Digital Transactions Reimagined"
-        description="To enhance security for both users and vendors, optional verification of vendors for offering your clients asmooth and quick payment experience."
+        description="To enhance security for both users and vendors, we offer optional vendor verification to ensure a smooth and quick payment experience for your clients."
         buttonText="Verify your shop"
         //buttonLink="/projects/smart-sparrow"
         model={{
@@ -123,7 +123,7 @@ export const Home = () => {
         }}
       />
       <ProjectSummary
-        id="project-3"
+        id="Feature-3"
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
