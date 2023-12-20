@@ -74,27 +74,27 @@
 .title {
   display: flex;
   flex-direction: column;
-  font-size: calc((140 / 16) * 1rem);
+  font-size: calc((125 / 16) * 1rem);
   letter-spacing: -0.005em;
 
   @media (--mediaDesktop) {
-    font-size: calc((120 / 16) * 1rem);
+    font-size: calc((109 / 16) * 1rem);
   }
 
   @media (--mediaLaptop) {
-    font-size: calc((100 / 16) * 1rem);
+    font-size: calc((85 / 16) * 1rem);
   }
 
   @media (max-width: 860px) {
-    font-size: calc((80 / 16) * 1rem);
+    font-size: calc((72 / 16) * 1rem);
   }
 
   @media (--mediaMobile) {
-    font-size: calc((56 / 16) * 1rem);
+    font-size: calc((50 / 16) * 1rem);
   }
 
   @media (--mediaMobileS) {
-    font-size: calc((42 / 16) * 1rem);
+    font-size: calc((38 / 16) * 1rem);
   }
 }
 

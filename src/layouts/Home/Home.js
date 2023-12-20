@@ -1,7 +1,7 @@
-import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
+import gamestackTexture2Large from 'assets/payment.jpg';
 import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
 import gamestackTexture2 from 'assets/gamestack-list.jpg';
-import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
+import gamestackTextureLarge from 'assets/cahrge.jpeg';
 import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
 import gamestackTexture from 'assets/gamestack-login.jpg';
 import sliceTextureLarge from 'assets/slice-app-large.jpg';
@@ -86,7 +86,7 @@ export const Home = () => {
         title="Phone to Phone payments"
         description="Using secure NFC technology, we provide a handy and safe payment method for daily life using cryptocurrencies."
         buttonText="Download the app"
-        //buttonLink="https://example.com"
+        buttonLink="https://play.google.com/store/apps/details?id=com.nextpay.tnd"
         model={{
           type: 'phone',
           alt: 'App login screen',
