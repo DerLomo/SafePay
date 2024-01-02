@@ -4,10 +4,10 @@ import paymentscreenLarge from 'assets/payscrren.jpg';
 import smartcardLarge from 'assets/phonetocard.jpg';
 import chargescreenLarge from 'assets/charge.jpg';
 import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
-import gamestackTexture2 from 'assets/gamestack-list.jpg';
+//import gamestackTexture2 from 'assets/gamestack-list.jpg';
 import gamestackTextureLarge from 'assets/cahrge.jpeg';
 import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
-import gamestackTexture from 'assets/gamestack-login.jpg';
+//import gamestackTexture from 'assets/gamestack-login.jpg';
 //import sliceTextureLarge from 'assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
 //import sliceTexture from 'assets/slice-app.jpg';
@@ -106,11 +106,11 @@ export const Home = () => {
           alt: 'App login screen',
           textures: [
             {
-              srcSet: [gamestackTexture, gamestackTextureLarge],
+              srcSet: [gamestackTextureLarge],
               placeholder: gamestackTexturePlaceholder,
             },
             {
-              srcSet: [gamestackTexture2, gamestackTexture2Large],
+              srcSet: [ gamestackTexture2Large],
               placeholder: gamestackTexture2Placeholder,
             },
           ],
