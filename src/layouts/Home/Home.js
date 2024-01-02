@@ -3,7 +3,7 @@ import paymentscreenLarge from 'assets/payscrren.jpg';
 //import verifymapLarge from 'assets/verifymap.jpg';
 import smartcardLarge from 'assets/phonetocard.jpg';
 import chargescreenLarge from 'assets/charge.jpg';
-import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
+import gamestackTexture2Placeholder from 'assets/charge.jpg';
 //import gamestackTexture2 from 'assets/gamestack-list.jpg';
 import gamestackTextureLarge from 'assets/cahrge.jpeg';
 import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
