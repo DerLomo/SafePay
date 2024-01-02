@@ -1,4 +1,5 @@
 import iphone11 from 'assets/iphone-11.glb';
+import cc from 'assets/credit_card.glb';
 import macbookPro from 'assets/macbook-pro.glb';
 
 export const ModelAnimationType = {
@@ -20,5 +21,11 @@ export const deviceModels = {
     height: 800,
     position: { x: 0, y: 0, z: 0 },
     animation: ModelAnimationType.LaptopOpen,
+  },
+  creditc: {
+    url: cc,
+    width: 1280,
+    height: 800,
+    position: { x: 0, y: 0, z: 0 },
   },
 };

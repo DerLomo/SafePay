@@ -1,4 +1,8 @@
 import gamestackTexture2Large from 'assets/payment.jpg';
+import paymentscreenLarge from 'assets/payscrren.jpg';
+import verifymapLarge from 'assets/verifymap.jpg';
+import smartcardLarge from 'assets/phonetocard.jpg';
+import chargescreenLarge from 'assets/charge.jpg';
 import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
 import gamestackTexture2 from 'assets/gamestack-list.jpg';
 import gamestackTextureLarge from 'assets/cahrge.jpeg';
@@ -84,7 +88,17 @@ export const Home = () => {
         visible={visibleSections.includes(projectTwo.current)}
         index={1}
         title="Phone to Phone payments"
-        description="Using secure NFC technology, we provide a handy and safe payment method for daily life using cryptocurrencies."
+        description={
+          <>
+            Using NFC technology, we provide a handy and safe payment method for daily life using cryptocurrencies.
+            <br />
+            You have the freedom to <span style={{ fontWeight: 'bold' }}> chose your favorite wallet and token</span> to pay with.
+            <br />
+            No 3rd party involved, <span style={{ fontWeight: 'bold' }}>no limits</span>.
+          </>
+        }
+        
+        
         buttonText="Download the app"
         buttonLink="https://play.google.com/store/apps/details?id=com.nextpay.tnd"
         model={{
@@ -107,17 +121,21 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={2}
-        title="Secure, Fast, and Physical: Digital Transactions Reimagined"
-        description="To enhance security for both users and vendors, we offer optional vendor verification to ensure a smooth and quick payment experience for your clients."
-        buttonText="Verify your shop"
+        title="Chose what to Pay/Receive"
+        description="Decide what token you want to pay or receive, and the app will do the rest."
+        buttonText="View demo video"
         //buttonLink="/projects/smart-sparrow"
         model={{
-          type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          type: 'phone',
+          alt: 'App login screen',
           textures: [
             {
-              srcSet: [sprTexture, sprTextureLarge],
-              placeholder: sprTexturePlaceholder,
+              srcSet: [paymentscreenLarge, paymentscreenLarge],
+              placeholder: gamestackTexturePlaceholder,
+            },
+            {
+              srcSet: [chargescreenLarge, chargescreenLarge],
+              placeholder: gamestackTexture2Placeholder,
             },
           ],
         }}
@@ -127,16 +145,25 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
-        buttonLink="/projects/slice"
+        title="Pay with card" 
+        description="No baterry in your phone? No problem, use our debit cards and pay 100% with crypto."
+        description={
+          <>
+            No baterry in your phone?
+            <br />
+            No problem,
+            <br />
+            Pay using a <span style={{ fontWeight: 'bold' }}>100% crypto procces</span>, encrypting the transactions with your card.
+          </>
+        }
+        buttonText="Comingo soon"
+        //buttonLink="/projects/slice"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
           textures: [
             {
-              srcSet: [sliceTexture, sliceTextureLarge],
+              srcSet: [smartcardLarge, smartcardLarge],
               placeholder: sliceTexturePlaceholder,
             },
           ],
