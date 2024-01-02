@@ -1,6 +1,6 @@
 import gamestackTexture2Large from 'assets/payment.jpg';
 import paymentscreenLarge from 'assets/payscrren.jpg';
-import verifymapLarge from 'assets/verifymap.jpg';
+//import verifymapLarge from 'assets/verifymap.jpg';
 import smartcardLarge from 'assets/phonetocard.jpg';
 import chargescreenLarge from 'assets/charge.jpg';
 import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
@@ -145,8 +145,7 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Pay with card" 
-        description="No baterry in your phone? No problem, use our debit cards and pay 100% with crypto."
+        title="Pay with card"
         description={
           <>
             No baterry in your phone?
