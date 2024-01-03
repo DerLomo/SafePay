@@ -111,7 +111,7 @@ export const Home = () => {
             },
             {
               srcSet: [gamestackTexture2Large],
-              placeholder: gawmestackTexture2Placeholder,
+              placeholder: gamestackTexture2Placeholder,
             },
           ],
         }}
