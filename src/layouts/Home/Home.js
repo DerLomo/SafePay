@@ -92,7 +92,7 @@ export const Home = () => {
           <>
             Using NFC technology, we provide a handy and safe payment method for daily life using cryptocurrencies.
             <br />
-            You have the freedom to <span style={{ fontWeight: 'bold' }}> chose your favorite wallet and token</span> to pay with.
+            You have the freedom to <span style={{ fontWeight: 'bold' }}> choose your favorite wallet and token</span> to pay with.
             <br />
             No 3rd party involved, <span style={{ fontWeight: 'bold' }}>no limits</span>.
           </>
@@ -121,7 +121,7 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={2}
-        title="Chose what to Pay/Receive"
+        title="Choose what to Pay/Receive"
         description="Decide what token you want to pay or receive, and the app will do the rest."
         buttonText="View demo video"
         //buttonLink="/projects/smart-sparrow"
@@ -148,11 +148,11 @@ export const Home = () => {
         title="Pay with card"
         description={
           <>
-            No baterry in your phone?
+            No battery in your phone?
             <br />
             No problem,
             <br />
-            Pay using a <span style={{ fontWeight: 'bold' }}>100% crypto procces</span>, encrypting the transactions with your card.
+            Pay using a <span style={{ fontWeight: 'bold' }}>100% crypto-based process</span>, encrypting the transactions with your card.
           </>
         }
         buttonText="Coming soon"

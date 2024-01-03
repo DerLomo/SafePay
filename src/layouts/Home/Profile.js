@@ -21,14 +21,14 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      This project aims to fulfill the need for a universal payment tool, one that brings together all kinds of wallets, tokens, and networks. And the final end of mass adoption, for that we have 3 main objectives:
+      This project aims to fulfill the need for a universal payment tool, one that brings together all kinds of wallets, tokens, and networks. Our ultimate goal is mass adoption, and to achieve that, we have three main objectives:
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      For a better and more familiar user experience, we use <span style={{ fontWeight: 'bold' }}>NFC technology</span> , similar to current payment options.
+      For a better and more familiar user experience, we use <span style={{ fontWeight: 'bold' }}>NFC technology</span>, similar to current payment options.
       <br />
       Use <span style={{ fontWeight: 'bold' }}>any token or wallet that you need</span>, we let each user decide what is best for them.
       <br />
-      Introducing the first <span style={{ fontWeight: 'bold' }}> crypto card</span>, enabling completely crypto payments without any third party.
+      Introducing the first <span style={{ fontWeight: 'bold' }}> crypto card</span>, enabling completely crypto-based payments without any third party.
     </Text>
   </Fragment>
 );
@@ -82,7 +82,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                   placeholder={profileImgPlaceholder}
                   srcSet={[profileImg]}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
-                  alt="Me standing in front of the Torii on Miyajima, an island off the coast of Hiroshima in Japan"
+                  alt="Logo"
                 />
                 <svg
                   aria-hidden="true"
