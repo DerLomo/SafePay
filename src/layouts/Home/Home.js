@@ -110,8 +110,8 @@ export const Home = () => {
               placeholder: gamestackTexturePlaceholder,
             },
             {
-              srcSet: [ gamestackTexture2Large],
-              placeholder: gamestackTexture2Placeholder,
+              srcSet: [gamestackTexture2Large],
+              placeholder: gawmestackTexture2Placeholder,
             },
           ],
         }}
@@ -155,7 +155,7 @@ export const Home = () => {
             Pay using a <span style={{ fontWeight: 'bold' }}>100% crypto procces</span>, encrypting the transactions with your card.
           </>
         }
-        buttonText="Comingo soon"
+        buttonText="Coming soon"
         //buttonLink="/projects/slice"
         model={{
           type: 'laptop',
