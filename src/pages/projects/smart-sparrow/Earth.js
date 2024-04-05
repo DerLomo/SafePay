@@ -192,7 +192,7 @@ export const Earth = ({
     const { innerWidth, innerHeight } = window;
 
     renderer.current = new WebGLRenderer({
-      canvas: canvas.current,
+      canvas: canvasRef.current,
       antialias: false,
       alpha: true,
       powerPreference: 'high-performance',
