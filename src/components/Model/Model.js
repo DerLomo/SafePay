@@ -92,9 +92,8 @@ export const Model = ({
     renderer.current = new WebGLRenderer({
       canvas: canvas.current,
       alpha: true,
-      antialias: false,
+      antialias: true,
       powerPreference: 'high-performance',
-      failIfMajorPerformanceCaveat: true,
     });
 
     renderer.current.setPixelRatio(2);
