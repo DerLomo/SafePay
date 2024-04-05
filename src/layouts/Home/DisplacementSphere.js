@@ -54,10 +54,9 @@ export const DisplacementSphere = props => {
     mouse.current = new Vector2(0.8, 0.5);
     renderer.current = new WebGLRenderer({
       canvas: canvasRef.current,
-      antialias: false,
+      antialias: true,
       alpha: true,
       powerPreference: 'high-performance',
-      failIfMajorPerformanceCaveat: true,
     });
     renderer.current.setSize(innerWidth, innerHeight);
     renderer.current.setPixelRatio(1);
