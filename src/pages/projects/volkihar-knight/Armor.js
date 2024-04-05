@@ -59,9 +59,9 @@ export const Armor = ({
     const { clientWidth, clientHeight } = container.current;
 
     renderer.current = new WebGLRenderer({
-      canvas: canvas.current,
-      alpha: true,
+      canvas: canvasRef.current,
       antialias: false,
+      alpha: true,
       powerPreference: 'high-performance',
       failIfMajorPerformanceCaveat: true,
     });
