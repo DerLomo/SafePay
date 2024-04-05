@@ -70,7 +70,7 @@ export const Carousel = ({ width, height, images, placeholder, ...rest }) => {
   useEffect(() => {
     const cameraOptions = [width / -2, width / 2, height / 2, height / -2, 1, 1000];
     renderer.current = new WebGLRenderer({
-      canvas: canvas.current,
+      canvas: canvasRef.current,
       antialias: false,
       alpha: true,
       powerPreference: 'high-performance',
