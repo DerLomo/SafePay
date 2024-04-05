@@ -90,10 +90,11 @@ export const Model = ({
     const { clientWidth, clientHeight } = container.current;
 
     renderer.current = new WebGLRenderer({
-      canvas: canvas.current,
+      canvas: canvasRef.current,
+      antialias: false,
       alpha: true,
-      antialias: true,
       powerPreference: 'high-performance',
+      failIfMajorPerformanceCaveat: true,
     });
 
     renderer.current.setPixelRatio(2);
